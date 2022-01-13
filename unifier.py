@@ -134,5 +134,3 @@ s1_grouped = s1_df.groupby(['farm_name','sensor_location','date','hour'], as_ind
 
 s1_grouped.to_csv('./minew_sensors.csv',index=False)
 we_df.to_csv('./we.csv',index=False)
-
-#print(s1_grouped.head(5))

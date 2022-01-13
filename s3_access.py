@@ -34,7 +34,7 @@ Print all objects in bucket
 #    print(obj)
     
 '''
-Download file
+Download files from s3 specific folder 
 '''
 
 def download_s3_folder (bucket_name, s3_folder, local_dir = None):
